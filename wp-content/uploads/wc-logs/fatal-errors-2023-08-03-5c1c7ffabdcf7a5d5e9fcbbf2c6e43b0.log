@@ -1,0 +1,8 @@
+2023-08-03T11:50:56+00:00 CRITICAL syntax error, unexpected identifier "the_field", expecting "," or ";" w C:\xampp3\htdocs\zadanie\wp-content\plugins\woocommerce\templates\cart\cart.php w linii 181
+
+2023-08-03T11:51:06+00:00 CRITICAL syntax error, unexpected identifier "the_field", expecting "," or ";" w C:\xampp3\htdocs\zadanie\wp-content\plugins\woocommerce\templates\cart\cart.php w linii 181
+
+2023-08-03T11:51:42+00:00 CRITICAL syntax error, unexpected single-quoted string "</div>", expecting "," or ";" w C:\xampp3\htdocs\zadanie\wp-content\plugins\woocommerce\templates\cart\cart.php w linii 181
+
+2023-08-03T11:52:15+00:00 CRITICAL syntax error, unexpected identifier "wiadomosc", expecting "," or ";" w C:\xampp3\htdocs\zadanie\wp-content\plugins\woocommerce\templates\cart\cart.php w linii 181
+

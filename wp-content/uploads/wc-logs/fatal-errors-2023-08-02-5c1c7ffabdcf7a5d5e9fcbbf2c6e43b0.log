@@ -1,0 +1,80 @@
+2023-08-02T06:47:45+00:00 CRITICAL syntax error, unexpected identifier "id", expecting "]" w C:\xampp3\htdocs\zadanie\wp-content\themes\astra\template-parts\footer\builder\components.php w linii 7
+
+2023-08-02T06:47:56+00:00 CRITICAL syntax error, unexpected identifier "id" w C:\xampp3\htdocs\zadanie\wp-content\themes\astra\template-parts\footer\builder\components.php w linii 7
+
+2023-08-02T06:48:57+00:00 CRITICAL syntax error, unexpected identifier "id", expecting "]" w C:\xampp3\htdocs\zadanie\wp-content\themes\astra\template-parts\footer\builder\components.php w linii 9
+
+2023-08-02T11:57:25+00:00 CRITICAL syntax error, unexpected token "echo" w C:\xampp3\htdocs\zadanie\wp-content\themes\astra\inc\builder\type\header\menu\class-astra-header-menu-component.php w linii 147
+
+2023-08-02T12:04:49+00:00 CRITICAL syntax error, unexpected token "echo", expecting "function" or "const" w C:\xampp3\htdocs\zadanie\wp-content\themes\astra\inc\builder\type\header\menu\class-astra-header-menu-component.php w linii 156
+
+2023-08-02T12:06:26+00:00 CRITICAL syntax error, unexpected token "echo" w C:\xampp3\htdocs\zadanie\wp-content\themes\astra\inc\markup-extras.php w linii 824
+
+2023-08-02T14:53:12+00:00 CRITICAL syntax error, unexpected token "echo", expecting ")" w C:\xampp3\htdocs\zadanie\wp-content\themes\astra\inc\builder\type\header\mobile-menu\class-astra-mobile-menu-component.php w linii 96
+
+2023-08-02T14:54:11+00:00 CRITICAL syntax error, unexpected token "echo", expecting ")" w C:\xampp3\htdocs\zadanie\wp-content\themes\astra\inc\builder\type\header\mobile-menu\class-astra-mobile-menu-component.php w linii 96
+
+2023-08-02T14:54:35+00:00 CRITICAL syntax error, unexpected token "echo", expecting ")" w C:\xampp3\htdocs\zadanie\wp-content\themes\astra\inc\builder\type\header\mobile-menu\class-astra-mobile-menu-component.php w linii 96
+
+2023-08-02T14:56:53+00:00 CRITICAL syntax error, unexpected single-quoted string ");", expecting ")" w C:\xampp3\htdocs\zadanie\wp-content\themes\astra\inc\builder\type\header\mobile-menu\class-astra-mobile-menu-component.php w linii 96
+
+2023-08-02T14:57:03+00:00 CRITICAL syntax error, unexpected single-quoted string ");", expecting ")" w C:\xampp3\htdocs\zadanie\wp-content\themes\astra\inc\builder\type\header\mobile-menu\class-astra-mobile-menu-component.php w linii 96
+
+2023-08-02T14:57:12+00:00 CRITICAL syntax error, unexpected token "echo", expecting ")" w C:\xampp3\htdocs\zadanie\wp-content\themes\astra\inc\builder\type\header\mobile-menu\class-astra-mobile-menu-component.php w linii 96
+
+2023-08-02T14:57:13+00:00 CRITICAL syntax error, unexpected token "echo", expecting ")" w C:\xampp3\htdocs\zadanie\wp-content\themes\astra\inc\builder\type\header\mobile-menu\class-astra-mobile-menu-component.php w linii 96
+
+2023-08-02T14:57:19+00:00 CRITICAL syntax error, unexpected token "echo", expecting ")" w C:\xampp3\htdocs\zadanie\wp-content\themes\astra\inc\builder\type\header\mobile-menu\class-astra-mobile-menu-component.php w linii 96
+
+2023-08-02T14:57:46+00:00 CRITICAL syntax error, unexpected token "<", expecting ")" w C:\xampp3\htdocs\zadanie\wp-content\themes\astra\inc\builder\type\header\mobile-menu\class-astra-mobile-menu-component.php w linii 96
+
+2023-08-02T14:57:59+00:00 CRITICAL syntax error, unexpected token "<", expecting ")" w C:\xampp3\htdocs\zadanie\wp-content\themes\astra\inc\builder\type\header\mobile-menu\class-astra-mobile-menu-component.php w linii 98
+
+2023-08-02T14:58:04+00:00 CRITICAL syntax error, unexpected token "<", expecting ")" w C:\xampp3\htdocs\zadanie\wp-content\themes\astra\inc\builder\type\header\mobile-menu\class-astra-mobile-menu-component.php w linii 98
+
+2023-08-02T14:58:10+00:00 CRITICAL syntax error, unexpected token "echo", expecting ")" w C:\xampp3\htdocs\zadanie\wp-content\themes\astra\inc\builder\type\header\mobile-menu\class-astra-mobile-menu-component.php w linii 98
+
+2023-08-02T14:58:39+00:00 CRITICAL syntax error, unexpected token "<" w C:\xampp3\htdocs\zadanie\wp-content\themes\astra\inc\builder\type\header\mobile-menu\class-astra-mobile-menu-component.php w linii 100
+
+2023-08-02T19:04:38+00:00 CRITICAL Uncaught ArgumentCountError: 3 arguments are required, 2 given in C:\xampp3\htdocs\zadanie\wp-content\plugins\woocommerce\includes\wc-formatting-functions.php:618
+Stack trace:
+#0 C:\xampp3\htdocs\zadanie\wp-content\plugins\woocommerce\includes\wc-formatting-functions.php(618): sprintf('%1$s%2$s', '<span class="wo...')
+#1 C:\xampp3\htdocs\zadanie\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(1881): wc_price('55.00')
+#2 C:\xampp3\htdocs\zadanie\wp-content\plugins\woocommerce\templates\loop\price.php(25): WC_Product->get_price_html()
+#3 C:\xampp3\htdocs\zadanie\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp3\\htdoc...')
+#4 C:\xampp3\htdocs\zadanie\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1404): wc_get_template('loop/price.php')
+#5 C:\xampp3\htdocs\zadanie\wp-content\themes\astra\inc\compatibility\woocommerce\woocommerce-common-functions.php(193): woocommerce_template_loop_price()
+#6 C:\xampp3\htdocs\zadanie\wp-includes\class-wp-hook.php(308): astra_woo_woocommerce_shop_product_content('')
+#7 C:\xampp3\htdocs\zadanie\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp3\htdocs\zadanie\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp3\htdocs\zadanie\wp-content\plugins\woocommerce\templates\content-product.php(65): do_action('woocommerce_aft...')
+#10 C:\xampp3\htdocs\zadanie\wp-includes\template.php(785): require('C:\\xampp3\\htdoc...')
+#11 C:\xampp3\htdocs\zadanie\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp3\\htdoc...', false)
+#12 C:\xampp3\htdocs\zadanie\wp-content\plugins\woocommerce\templates\archive-product.php(56): wc_get_template_part('content', 'product')
+#13 C:\xampp3\htdocs\zadanie\wp-includes\template-loader.php(106): include('C:\\xampp3\\htdoc...')
+#14 C:\xampp3\htdocs\zadanie\wp-blog-header.php(19): require_once('C:\\xampp3\\htdoc...')
+#15 C:\xampp3\htdocs\zadanie\index.php(17): require('C:\\xampp3\\htdoc...')
+#16 {main}
+  thrown w C:\xampp3\htdocs\zadanie\wp-content\plugins\woocommerce\includes\wc-formatting-functions.php w linii 618
+
+2023-08-02T19:04:43+00:00 CRITICAL Uncaught ArgumentCountError: 3 arguments are required, 2 given in C:\xampp3\htdocs\zadanie\wp-content\plugins\woocommerce\includes\wc-formatting-functions.php:618
+Stack trace:
+#0 C:\xampp3\htdocs\zadanie\wp-content\plugins\woocommerce\includes\wc-formatting-functions.php(618): sprintf('%1$s%2$s', '<span class="wo...')
+#1 C:\xampp3\htdocs\zadanie\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(1881): wc_price('55.00')
+#2 C:\xampp3\htdocs\zadanie\wp-content\plugins\woocommerce\templates\loop\price.php(25): WC_Product->get_price_html()
+#3 C:\xampp3\htdocs\zadanie\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp3\\htdoc...')
+#4 C:\xampp3\htdocs\zadanie\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1404): wc_get_template('loop/price.php')
+#5 C:\xampp3\htdocs\zadanie\wp-content\themes\astra\inc\compatibility\woocommerce\woocommerce-common-functions.php(193): woocommerce_template_loop_price()
+#6 C:\xampp3\htdocs\zadanie\wp-includes\class-wp-hook.php(308): astra_woo_woocommerce_shop_product_content('')
+#7 C:\xampp3\htdocs\zadanie\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp3\htdocs\zadanie\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp3\htdocs\zadanie\wp-content\plugins\woocommerce\templates\content-product.php(65): do_action('woocommerce_aft...')
+#10 C:\xampp3\htdocs\zadanie\wp-includes\template.php(785): require('C:\\xampp3\\htdoc...')
+#11 C:\xampp3\htdocs\zadanie\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp3\\htdoc...', false)
+#12 C:\xampp3\htdocs\zadanie\wp-content\plugins\woocommerce\templates\archive-product.php(56): wc_get_template_part('content', 'product')
+#13 C:\xampp3\htdocs\zadanie\wp-includes\template-loader.php(106): include('C:\\xampp3\\htdoc...')
+#14 C:\xampp3\htdocs\zadanie\wp-blog-header.php(19): require_once('C:\\xampp3\\htdoc...')
+#15 C:\xampp3\htdocs\zadanie\index.php(17): require('C:\\xampp3\\htdoc...')
+#16 {main}
+  thrown w C:\xampp3\htdocs\zadanie\wp-content\plugins\woocommerce\includes\wc-formatting-functions.php w linii 618
+

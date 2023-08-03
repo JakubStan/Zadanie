@@ -1,0 +1,83 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+#billing_nip::-webkit-outer-spin-button,
+#billing_nip::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#billing_nip[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+.checkbox span{
+	line-height: 2;
+    font-weight: 700;
+    font-size: 13.5px;
+    font-size: .9rem;
+}
+
+.input-checkbox{
+    display: inline;
+    margin: -2px 8px 0 0;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+button:focus, .menu-toggle:hover, button:hover, .ast-button:hover, .ast-custom-button:hover .button:hover, .ast-custom-button:hover, input[type="reset"]:hover, input[type="reset"]:focus, input#submit:hover, input#submit:focus, input[type="button"]:hover, input[type="button"]:focus, input[type="submit"]:hover, input[type="submit"]:focus, form[CLASS*="wp-block-search__"].wp-block-search .wp-block-search__inside-wrapper .wp-block-search__button:hover, form[CLASS*="wp-block-search__"].wp-block-search .wp-block-search__inside-wrapper .wp-block-search__button:focus, body .wp-block-file .wp-block-file__button:hover, body .wp-block-file .wp-block-file__button:focus, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce .woocommerce-message a.button:hover, .woocommerce #respond input#submit:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce input.button.alt:hover, .woocommerce input.button:hover, .woocommerce button.button.alt.disabled:hover, .wc-block-grid__products .wc-block-grid__product .wp-block-button__link:hover, [CLASS*="wc-block"] button:hover, .woocommerce-js .astra-cart-drawer .astra-cart-drawer-content .woocommerce-mini-cart__buttons .button:not(.checkout):not(.ast-continue-shopping):hover, .woocommerce-js .astra-cart-drawer .astra-cart-drawer-content .woocommerce-mini-cart__buttons a.checkout:hover, .woocommerce button.button.alt.disabled.wc-variation-selection-needed:hover {
+  color: #ffffff;
+  background-color: #245730;
+  border-color: #245730;
+}
+
+.woocommerce-message::before, .woocommerce-info::before {
+  color: #245730 !important;
+}
+
+.woocommerce-shipping-calculator a{
+	color: #245730 !important;
+}
+
+.woocommerce-info a {
+	color: #245730 !important;
+}
+
+
+.woocommerce-message, .woocommerce-info {
+  border-top-color: #245730 !important;
+}
+
+.woocommerce form .form-row-first, .woocommerce form .form-row-last, .woocommerce-page form .form-row-first, .woocommerce-page form .form-row-last {
+  width: 100% !important;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active::before, .woocommerce div.ast-product-tabs-layout-vertical .woocommerce-tabs ul.tabs li:hover::before {
+  background: #245730;
+}
+
+.woocommerce-privacy-policy-link  {
+	color: #245730 !important;
+}
+
+.single-product-category a , .posted_in a {
+	color: #245730 !important;
+}
+
+
+.woocommerce form .form-row .input-text, .woocommerce-page form .form-row .input-text {
+  resize: vertical;
+}
+
+
+.custom-message{
+    padding: 1em 2em 1em 3.5em;
+    margin: 0 0 2em;
+    position: relative;
+    background-color: #245730;
+    color: white;
+    width: auto;
+    word-wrap: break-word;
+}</style>
+<!-- end Simple Custom CSS and JS -->

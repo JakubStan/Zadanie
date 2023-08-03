@@ -1,0 +1,59 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.star-rating{
+	display: none !important;
+}
+
+.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button {
+		background-color: #245730;	
+}
+
+.woocommerce a.button {
+		border: 1px solid #245730 !important;
+}
+
+.woocommerce a.button:hover {
+		background-color: transparent !important;
+		color: #245730 !important;
+}
+
+.woocommerce ul.products li.product.mobile-align-left, .woocommerce-page ul.products li.product.mobile-align-left {
+  		text-align: center !important;
+	}
+
+
+.woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+  justify-content: space-between;
+}
+
+.woocommerce ul.products:not(.elementor-grid), .woocommerce-page ul.products:not(.elementor-grid) {
+  grid-template-columns: repeat(3,1fr) !important;
+}
+
+
+.product-name a {
+	color: black !important;
+}
+
+/* Media queries */
+
+/*  Small devices (landscape phones, 576px and up)*/
+@media (max-width: 576px) { 
+	.woocommerce ul.products {
+	 	display: flex;
+  	 	flex-direction: column;
+	}
+	
+		
+	.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button {
+		width: 100%;		
+	}
+}
+
+
+@media (max-width: 921px){
+.ast-container .woocommerce ul.products:not(.elementor-grid), .woocommerce-page ul.products:not(.elementor-grid), .woocommerce.tablet-columns-3 ul.products:not(.elementor-grid) {
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+}
+}</style>
+<!-- end Simple Custom CSS and JS -->

@@ -1,0 +1,193 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.site-below-footer-wrap[data-section="section-below-footer-builder"] {
+    background-color: #fbfafb;
+	border-top: none;	
+}
+
+footer {
+	background-color: #fbfafb;
+}
+
+.site-below-footer-wrap[data-section="section-below-footer-builder"] .ast-builder-grid-row {
+  max-width: 1240px;
+}
+
+
+
+.footer-container{
+		padding-left: 15px;
+   		padding-right: 15px;
+		margin: 40px 0px;
+}
+
+.footer-width-fixer {
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+#ast-scroll-top{background-color: #245730 !important;}
+
+/* footer-top */
+
+.footer-top{
+	display: flex;    
+    justify-content: space-between;
+	border-bottom: 1px solid #e5e5e5;
+	padding-bottom: 50px;
+	flex-direction: column;
+}
+
+.cols{
+	display: flex;    
+    justify-content: space-between;
+}
+
+.col{
+	display: flex;
+	flex-direction: column;
+	min-height: 230px;
+	justify-content: space-between;
+}
+
+.footer-logo{
+	width: 210px;
+}
+
+.footer-container ul {
+	list-style: none;
+	margin-left: 0px;
+	margin-bottom: 0px;
+}
+
+
+.footer-container ul {
+	    font-weight: 500;
+	    font-size: 16px;
+}
+
+
+.footer-container ul li{
+	margin: 10px 0px;
+	color: #111312;	
+}
+
+.footer-container a{
+	color: #111312;	
+	cursor: pointer;	
+}
+
+.footer-container a:hover {
+	color: #20542c;
+}
+
+
+.footer-container h5 {
+	color: #20542c;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+
+/* socjal-icons */
+
+.socjal-icons{
+	display: flex;
+	justify-content: center;
+}
+
+.wrapper{
+	margin-top: 50px;
+}
+
+.socjal-icon{
+	width: 30px;
+    margin: 0 20px;
+}
+	
+
+
+/* payments */
+
+.payments{
+	display: flex;
+    justify-content: space-between;
+
+	border-bottom: 1px solid #e5e5e5;
+	padding: 50px 0 50px 0;
+}
+
+.payment-icon{
+	width: 100px;
+	height: auto;
+	filter: grayscale(100%);
+}
+
+.payment-icon:hover{
+	filter: none;
+}
+
+
+/* footer-bottom */
+
+.footer-bottom{
+	display: flex;
+    justify-content: space-between;
+	padding-top: 50px;
+}
+
+
+
+
+/* Media queries */
+
+/*  Small devices (landscape phones, 576px)*/
+@media (max-width: 576px) { 
+	.payments, .footer-bottom{
+		flex-direction: column;
+		align-items: center;
+	}
+	
+	.payment-icon, .footer-bottom div {
+  		margin: 15px 0;
+	}
+	
+	.site-below-footer-wrap {
+  		padding-top: 0;
+  		padding-bottom: 0;
+	}
+}
+
+
+
+/* Medium devices (tablets, 768px ) */
+@media (max-width: 768px) {
+	
+	.footer-logo {
+  		margin-bottom: 40px;
+	}
+	
+	.cols{
+		flex-direction: column;
+		align-items: center;
+	}
+	
+	.col{
+		min-height: 140px;
+		text-align: center;
+	}
+	
+	.footer-container h5 {
+		margin-top: 30px;
+	}
+	
+
+}
+
+
+
+
+</style>
+<!-- end Simple Custom CSS and JS -->
